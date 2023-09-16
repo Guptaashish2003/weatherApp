@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>weather app</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      coolage<b style=" color: red">T</b>ech
+    </div>
+    <div class="searchBar">
+      <input class="a" type="search" placeholder="search here">
+      <button class="b" type="submit"><img src="file:///D:/webDev/learn/weatherApp/logo/search.png"> </button>
+    </div>
+    <div class="navD">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="error">
+    <p>Invalid City Name!!</p>
+  </div>
+  <section class="weather">
+    <img src="file:///D:/webDev/learn/weatherApp/logo/cloud.png" class="weather-icon">
+    <text class="weatherD">
+      <h1 class="temp">32</h1>
+      <h2 class="city">Delhi</h2>
+    </text>
+    <div class="details">
+      <div class="col">
+        <img src="file:///D:/webDev/learn/weatherApp/logo/humidity.png">
+          <div>
+            <p class="humidity">40%</p>
+            <p>humidity</p>
+          </div>
+      </div>
+      <div class="col">
+        <img src="file:///D:/webDev/learn/weatherApp/logo/wind.png">
+        <div>
+          <p class="wind">40 KM/H</p>
+          <p>Wind Speed</p>
+        </div>
+    </div>
+    </div>
+    <div class="otherD">
+      <div class="txt"><p>Feels Like :&nbsp;</p><p class="feels"> 31</p></div> 
+      <div class="txt"><p>Min Temp : &nbsp; </p><p class = "minT">32</p></div> 
+      <div class="txt"><p>Max Temp : &nbsp; </p><p class="maxT"> 33</p></div> 
+      <div class="txt"><p>Cloud Precipitate : &nbsp; </p><p class="cloudpct"> 34</p></div> 
+  </section>
+  <section class="README">
+    <p class="pre">TO  CHECK WEATHER DETAILS  <br> PLEASE <br> ENTER YOUR CITY IN SEARCH BOX</p>
+  </section>
+  <div class="border">
+    <p>ALL RIGHTS RESERVED &COPY; ASHISH</p>
+  </div>
+  <script src="fetch.js"></script>
+</body>
+
+</html>
