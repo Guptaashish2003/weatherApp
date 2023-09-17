@@ -53,8 +53,7 @@ body{
     margin: auto 0px;
     height: 35px;    
     line-height: 35px;
-    position: relative;
-    left: 105px;
+    padding-left:4vw;
 
 }
 .navbar .searchBar .a{
@@ -167,8 +166,8 @@ body{
     flex-direction: column;
     align-items: center;    
     justify-content: center;
-    top: 96%;
-    background-color: #6ea6ff;
+    top: 100%;
+    background-color: #FFC3A0;
     width: 100%;
     height: 25px;
 }
@@ -180,4 +179,50 @@ body{
     font-size: 24px;
     color: white;
     display: none;
+}
+@media screen and (max-width: 1066px) {
+    body {
+        background: #2CCCC3;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+    }
+    .searchBar{
+        width: auto;
+        margin: auto;
+    }
+    }
+@media screen and (max-width: 540px) {
+    .searchBar{
+        width: 100%;
+        margin: auto;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    .searchBar{
+        position: relative;
+        right: 2vw;
+    }
+    .navbar .searchBar .b{
+        border-radius: 50%;
+    }
+    .col img{
+        width: 30px;
+    }
+    .otherD {
+        display: flex;
+        margin: 20px auto;
+        flex-direction: column;
+        gap: 3vh;
+      }
+      .wind{
+        font-size: 20px;
+      }
+    
+    
+
 }
